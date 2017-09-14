@@ -1,11 +1,11 @@
-import React from 'react';
+import createReactClass from 'create-react-class';
 import { expect } from 'chai';
 import Subscribable from '../../src/mixins/Subscribable.js';
 import DeviceEventEmitter from '../../src/plugins/DeviceEventEmitter.js';
 
 describe('Subscribable.Mixin', () => {
   it('Can mount and unmount with a DeviceEventEmitter subscribed. Does not interupt existing events.', () => {
-    const SubscribableClass = React.createClass({
+    const SubscribableClass = createReactClass({
       mixins: [Subscribable.Mixin],
       render() {
         return null;
