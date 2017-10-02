@@ -2,7 +2,7 @@
 import React from 'react';
 import { DrawerLayoutAndroid } from '../../src/react-native';
 import { expect } from 'chai';
-import { createRenderer } from 'react-test-renderer/shallow';
+import { createRenderer } from 'react-addons-test-utils';
 
 describe('DrawerLayoutAndroid', () => {
   it('should render an empty DrawerLayoutAndroid', () => {

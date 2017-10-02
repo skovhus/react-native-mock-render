@@ -106,7 +106,7 @@ const ReactNative = {
 const ReactNativeAddons = {
   // LinkedStateMixin: require('react-addons-linked-state-mixin') deprecated,
   TestModule: require('./NativeModules/TestModule'),
-  TestUtils: require('react-dom/test-utils'),
+  TestUtils: require('react-addons-test-utils'),
   // TODO(lmr): not sure where to find this
   // batchedUpdates: require('ReactUpdates').batchedUpdates, deprecated
   // cloneWithProps: require('react-addons-clone-with-props'), deprecated
